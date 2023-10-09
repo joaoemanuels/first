@@ -1,6 +1,7 @@
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import First from './components/first'
+import Good from './components/Good'
 
-ReactDOM.render(<First />, document.getElementById("root"))
+ReactDOM.render(<Good nome="João" idade={10} />, document.getElementById("root"))
